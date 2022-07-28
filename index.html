@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Cruises to Antarctica – The magical world of icebergs and penguins.">
+  <title>Cruises to Antarctica</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="body">
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__body">
+        <div class="logo">
+          <a class="logo__link" href="#header">
+            <svg class="logo__img" width="70" height="38">
+              <use xlink:href="img/sprite_auto.svg#logo"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link text-menu" href="#about">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link text-menu" href="#advantages">Advantages</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link text-menu" href="#cruises">Upcoming cruises</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link text-menu" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <input class="burger__checkbox" type="checkbox" id="burger__checkbox">
+          <div class="burger-button">
+            <label class="burger__label" for="burger__checkbox" id="burger__lable"></label>
+            <div class="burger-button__line"></div>
+          </div>
+          <nav class="burger-menu">
+            <ul class="burger-menu__list" id="burger-menu__list">
+              <li class="burger-menu__item">
+                <a class="burger-menu__link text-menu" href="#about">About</a>
+              </li>
+              <li class="burger-menu__item">
+                <a class="burger-menu__link text-menu" href="#advantages">Advantages</a>
+              </li>
+              <li class="burger-menu__item">
+                <a class="burger-menu__link text-menu" href="#cruises">Upcoming cruises</a>
+              </li>
+              <li class="burger-menu__item">
+                <a class="burger-menu__link text-menu" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <main class="main">
+      <section class="section home-page">
+        <div class="container">
+          <div class="section__body">
+            <h1 class="section__title title-big">Cruises to Antarctica</h1>
+            <p class="section__text text-big">The magical world of icebergs and penguins</p>
+          </div>
+        </div>
+      </section>
+      <section class="section intro-page" id="about">
+        <div class="container">
+          <div class="section__body">
+            <div class="text-block">
+              <h2 class="section__title title-small">Travel to the end of the earth</h2>
+              <p class="section__text text-medium">This magical journey will help you get to know the wonderful world of Antarctica.
+                Our
+                cruise ship will take you to the ends of the Earth, where you can see: icebergs, several types of
+                penguins, whales, fur seals, and much more.</p>
+            </div>
+            <div class="picture-block">
+              <picture class="section__image">
+                <source media="(max-width: 767px)" srcset="img/pinguins-intro-mobile@1x.webp 1x, img/pinguins-intro-mobile@2x.webp 2x" type="image/webp">
+                <source media="(min-width: 768px) and (max-width: 1365px)" srcset="img/pinguins-intro-tablet@1x.webp 1x, img/pinguins-intro-tablet@2x.webp 2x" type="image/webp">
+                <source media="(min-width: 1366px)" srcset="img/pinguins-intro-desktop@1x.webp 1x, img/pinguins-intro-desktop@2x.webp 2x" type="image/webp">
+                <img src="img/pinguins-intro-mobile@1x.jpg" alt="pinguins picture">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section advantages-page" id="advantages">
+        <div class="container">
+          <div class="section__body">
+            <h2 class="section__title title-small">Advantages</h2>
+            <div class="section__content">
+              <div class="item">
+                <div class="item__icon">
+                  <svg class="icon-liner" id="icon-lainer" height="26" width="21">
+                    <use xlink:href="img/sprite_auto.svg#icon-liner"></use>
+                  </svg>
+                </div>
+                <h3 class="item__title subtitle-big">Small cruise ship</h3>
+                <p class="item__text text-small">A cruise ship with just 300 guests aboard can help you avoid noise
+                  and queues.
+                  And will give you an opportunity to enjoy the views and nature.</p>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <svg class="icon-check" id="icon-check" height="19" width="33">
+                    <use xlink:href="img/sprite_auto.svg#icon-check"></use>
+                  </svg>
+                </div>
+                <h3 class="item__title subtitle-big">All inclusive</h3>
+                <p class="item__text text-small">All our cruises operate
+                  according to the "All-Inclusive" system. Great dishes
+                  and an unlimited bar available
+                  for you 24 hours.</p>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <svg class="icon-boat" id="icon-boat" height="13" width="38">
+                    <use xlink:href="img/sprite_auto.svg#icon-boat"></use>
+                  </svg>
+                </div>
+                <h3 class="item__title subtitle-big">Excursions by Zodiac</h3>
+                <p class="item__text text-small">We offer excursion tours to the shores of Antarctica on equipped Zodiac
+                  boats with experienced guides.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section cruises-page" id="cruises">
+        <div class="container">
+          <div class="section__body">
+            <h2 class="title-small">Upcoming cruises</h2>
+            <div class="section__content">
+
+              <div class="item item-astoria">
+                <h3 class="item__title subtitle-big">Cruise "Astoria"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-astoria">Booking</button>
+              </div>
+
+              <div class="item item-elaine">
+                <h3 class="item__title subtitle-big">Cruise "Elaine"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-elaine">Booking</button>
+              </div>
+
+              <div class="item item-atlantis">
+                <h3 class="item__title subtitle-big">Cruise "Atlantis"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-atlantis">Booking</button>
+              </div>
+
+              <div class="item item-odyssey">
+                <h3 class="item__title subtitle-big">Cruise "Odyssey"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-odyssey">Booking</button>
+              </div>
+
+              <div class="item item-olympia">
+                <h3 class="item__title subtitle-big">Cruise "Olympia"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-olympia">Booking</button>
+              </div>
+
+              <div class="item item-aurora">
+                <h3 class="item__title subtitle-big">Cruise "Aurora"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-aurora">Booking</button>
+              </div>
+
+              <div class="item item-leonor">
+                <h3 class="item__title subtitle-big">Cruise "Leonor"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-leonor">Booking</button>
+              </div>
+
+              <div class="item item-minion">
+                <h3 class="item__title subtitle-big">Cruise "Minion"</h3>
+                <h4 class="item__subtitle subtitle-small">Rout</h4>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h4 class="item__subtitle subtitle-small">Departure</h4>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h4 class="item__subtitle subtitle-small">Duration</h4>
+                <p class="item__text text-small">20 h.</p>
+                <h4 class="item__subtitle subtitle-small">Price</h4>
+                <p class="item__text text-small">from 14 500 $</p>
+                <button class="button" type="button" id="btn-booking-minion">Booking</button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="section booking-page">
+        <div class="container">
+          <div class="section__body">
+            <div class="section__content">
+              <h2 class="section__title title-medium">Early booking</h2>
+              <p class="section__text text-big">Book your tour 3-6 months before the check-out date
+                and save up to 50%</p>
+            </div>
+            <form class="form booking-form">
+              <p class="form__description subtitle-big">Leave a request and we will contact you</p>
+              <input class="form__input" type="text" id="form-name" name="form-name" placeholder="John Doe" required="">
+              <input class="form__input" type="tel" id="form-telephone" name="form-telephon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="" placeholder="123-456-7890">
+              <input class="form__input" type="email" id="form-email" name="form-email" placeholder="example@example.com" required="">
+              <div class="form__agreement">
+                <input class="form__agreement-checkbox" type="checkbox" required="" id="agreement-check" name="agreement-check">
+                <label for="agreement-check" class="form__agreement-label text-small">I agree to process my personal
+                  data</label>
+              </div>
+              <button class="form__button" type="submit" id="btn-form">Send a request</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="section contacts-page" id="contacts">
+        <div class="container">
+          <div class="section__body">
+
+            <div class="section__content">
+              <h2 class="subtitle-big">Do you still have any questions or doubts? Come to our office and we will tell
+                you everything.</h2>
+              <div class="item item-adress">
+                <div class="item__icon">
+                  <svg class="icon-target" id="icon-target" height="22" width="18">
+                    <use xlink:href="img/sprite_auto.svg#icon-target"></use>
+                  </svg>
+                </div>
+                <p class="item__text text-medium">55 Trinity Ave SW, <br> Atlanta, GA 30303</p>
+              </div>
+              <div class="item item-phone">
+                <div class="item__icon">
+                  <svg class="icon-phone" id="icon-phone" height="18" width="18">
+                    <use xlink:href="img/sprite_auto.svg#icon-phone"></use>
+                  </svg>
+                </div>
+                <p class="item__text text-medium">8-800-200-00-00</p>
+              </div>
+            </div>
+
+            <div class="map-responsive">
+              <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=33.7483996,-84.3924488&hl=es&z=10&output=embed">
+            </iframe>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <div class="logo">
+            <a class="logo__link" href="#header">
+              <svg class="logo__img" width="70" height="38">
+                <use xlink:href="img/sprite_auto.svg#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link text-menu" href="#about">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link text-menu" href="#advantages">Advantages</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link text-menu" href="#cruises">Upcoming cruises</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link text-menu" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="social">
+            <div class="social__item">
+              <a class="social__link" href="#">
+                  <svg class="social__link-img icon-facebook" height="20" width="11">
+                      <use xlink:href="img/sprite_auto.svg#social-facebook"></use>
+                  </svg>
+              </a>
+            </div>
+            <div class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__link-img icon-instagram" height="20" width="20">
+                  <use xlink:href="img/sprite_auto.svg#social-instagram"></use>
+              </svg>
+              </a>
+            </div>
+            <div class="social__item">
+              <a class="social__link" href="#">
+                  <svg class="social__link-img icon-twitter" height="16" width="20">
+                      <use xlink:href="img/sprite_auto.svg#social-twitter"></use>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
